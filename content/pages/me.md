@@ -35,23 +35,14 @@ WordPress Poll Maker Plugin — Race condition vulnerability allowing users to b
 
 ### Bug Hunting
 
-Discovered **400+ valid vulnerabilities** and recognized by major organizations:
+I discovered **400+ vulnerabilities** and got acknowledged by global companies, including:
 
-- **Google** (Jan 2022)
-- **Red Hat**
-- **NASA**
-- **TikTok**
-- **IBM**
-- **Dropbox**
-- **Sony**
-- **Yahoo**
-- **Square**
-- **U.S. Department of Defense**
-- **FIS**
-- **Line**
-- **Netherlands Government**
-- **Amazon**
-- **RedBull**
+- **Google**, **Yahoo**, **TikTok**, **IBM**, **Sony**, **Amazon**, **Disney**, **AT&T**, **Airbnb**, **Booking.com**, **Expedia Group**
+- **Red Hat**, **Datadog**, **Financial Times**, **Ford**, **CBRE**, **Nominet (UK)**, **Nextcloud**
+- **U.S. Department of Defense** and multiple government entities
+
+(*Some programs remain confidential due to NDA.*)
+
 
 ---
 
