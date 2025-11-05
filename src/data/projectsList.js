@@ -10,8 +10,36 @@ export const projectsList = [
   {
     name: 'Cloudflare MCP Server',
     date: '2025',
-    slug: 'Cloudflare-MCP-Server-',
-    tagline: 'Vulnerability report acknowledged by NASA',
+    slug: 'Cloudflare-MCP-Server',
+    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    highlight: true,
+  },
+  {
+    name: 'js-sentinel',
+    date: '2025',
+    slug: 'Cloudflare-MCP-Server',
+    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    highlight: true,
+  },
+  {
+    name: 'GhostServer-CTF',
+    date: '2025',
+    slug: 'Cloudflare-MCP-Server',
+    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    highlight: true,
+  },
+  {
+    name: 'CTF-RaceCondition',
+    date: '2025',
+    slug: 'Cloudflare-MCP-Server',
+    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    highlight: true,
+  },
+  {
+    name: 'JSNotify',
+    date: '2025',
+    slug: 'Cloudflare-MCP-Server',
+    tagline: 'Vulnerability report acknowledged by Cloudflare',
     highlight: true,
   }
 ]
