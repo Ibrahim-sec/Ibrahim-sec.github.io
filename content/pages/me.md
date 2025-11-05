@@ -9,7 +9,7 @@ template: page
 In few words, I'm **Ibrahim M. Gholamy**, a Junior Computer Science (Cyber Security) student at Asia Pacific University of Technology and Innovation (APU), Malaysia.  
 Outside of my studies, I work as a **bug hunter** and **penetration tester**, reporting vulnerabilities through platforms like HackerOne, Bugcrowd, and Intigriti. I’m passionate about ethical hacking, red teaming, and continuously sharpening my skills through real-world testing and Capture the Flag competitions.
 
-Scroll down to explore some highlights from my journey in cybersecurity. 🚀
+Scroll down to explore some highlights from my journey in cybersecurity.
 
 ---
 

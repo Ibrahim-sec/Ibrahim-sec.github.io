@@ -19,7 +19,7 @@ export default function Projects() {
   useEffect(() => {
     async function getStars() {
       const repos = await fetch(
-        'https://api.github.com/users/taniarascia/repos?per_page=100'
+        'https://api.github.com/users/ibrahim-sec/repos?per_page=100'
       )
 
       return repos.json()
@@ -48,7 +48,7 @@ export default function Projects() {
                   {repos.find((repo) => repo.name === project.slug) && (
                     <div className="star">
                       <a
-                        href={`https://github.com/taniarascia/${project.slug}/stargazers`}
+                        href={`https://github.com/ibrahim-sec/${project.slug}/stargazers`}
                       >
                         {Number(
                           repos.find((repo) => repo.name === project.slug)
@@ -62,7 +62,7 @@ export default function Projects() {
                 <time>{project.date}</time>
                 <a
                   className="card-header"
-                  href={`https://github.com/taniarascia/${project.slug}`}
+                  href={`https://github.com/ibrahim-sec/${project.slug}`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -87,7 +87,7 @@ export default function Projects() {
                   )}
                   <a
                     className="button small"
-                    href={`https://github.com/taniarascia/${project.slug}`}
+                    href={`https://github.com/ibrahim-sec/${project.slug}`}
                     target="_blank"
                     rel="noreferrer"
                   >
