@@ -6,19 +6,20 @@ template: page
 
 ## Hello There! 👋
 
-In few words, I'm **Ibrahim M. Gholamy**, a university student currently a Junior Student at Asia Pacific University of Technology and Innovation (APU), majored in Computer Science. Currently working as a bug hunter in my free time and I've had some penetration testing engagements with different companies and businesses. I'm passionate about Penetration Testing and trying to improve my skills day by day.
+In few words, I'm **Ibrahim M. Gholamy**, a Junior Computer Science (Cyber Security) student at Asia Pacific University of Technology and Innovation (APU), Malaysia.  
+Outside of my studies, I work as a **bug hunter** and **penetration tester**, reporting vulnerabilities through platforms like HackerOne, Bugcrowd, and Intigriti. I’m passionate about ethical hacking, red teaming, and continuously sharpening my skills through real-world testing and Capture the Flag competitions.
 
-Scroll down to figure out some of my achievements that I've done in my humble journey as a passionate penetration tester.
+Scroll down to explore some highlights from my journey in cybersecurity. 🚀
 
 ---
 
 ## COURSES & CERTIFICATIONS
 
 **eLearnSecurity Web Application Penetration Testing eXtreme (eWPTXv2)**  
-INE Security - May 2022
+INE Security — May 2022  
 
 **AD-RTS**  
-CyberWarFare Labs - November 2025
+CyberWarFare Labs — November 2025  
 
 ---
 
@@ -27,59 +28,80 @@ CyberWarFare Labs - November 2025
 ### CVEs
 
 **CVE-2025-47545**  
-WordPress Poll Maker Plugin - Race condition vulnerability allowing users to bypass voting limitations. Patched in version 5.7.8.
+WordPress Poll Maker Plugin — Race condition vulnerability allowing users to bypass voting limitations.  
+*Patched in version 5.7.8.*
 
 ---
 
 ### Bug Hunting
 
-I discovered **400+ vulnerabilities** and got acknowledged by major companies:
+Discovered **400+ valid vulnerabilities** and recognized by major organizations:
 
-- **Google** (January 2022)
-- **Dropbox**
-- **FIS**
-- **IBM**
-- **Line**
+- **Google** (Jan 2022)
+- **Red Hat**
 - **NASA**
-- **Netherlands Government**
-- **RedBull**
-- **RedHat**
+- **TikTok**
+- **IBM**
+- **Dropbox**
 - **Sony**
+- **Yahoo**
 - **Square**
 - **U.S. Department of Defense**
-- **Yahoo**
+- **FIS**
+- **Line**
+- **Netherlands Government**
 - **Amazon**
-- **TikTok**
+- **RedBull**
 
 ---
 
 ### Competitions
 
-**HackerOne Ambassador World Cup - Represented Saudi Arabia**  
-2023 & 2024
+**HackerOne Ambassador World Cup — Represented Saudi Arabia**  
+2023 & 2024  
 
-**System Override CTF 2025 - Lead Organizer & CTO at BarqSec**  
-Asia Pacific University (APU) - 300+ participants from 10+ universities across Malaysia
+**System Override CTF 2025 — Lead Organizer & CTO at BarqSec**  
+Asia Pacific University (APU) — 300+ participants from 10+ universities across Malaysia  
+
+---
+
+## PROJECTS
+
+**GhostServer CTF (2025)** — Creator  
+Simulated virtual host misconfigurations (Host header attack).  
+
+**JSNotify (2023)** — Developer  
+A Python-based JavaScript integrity monitoring tool for detecting unauthorized file modifications.  
+
+**Race Condition CTF (2024)** — Creator  
+Built to simulate real-world race conditions, inspired by CVE-2025-47545.  
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
 **Chief Technology Officer (CTO)**  
-BarqSec - Cybersecurity Startup
+BarqSec — Cybersecurity Startup  
 
-**IT & Cybersecurity Intern**  
-Primary Guard (Forest Interactive subsidiary)
+**Cybersecurity Intern**  
+Primary Guard (Forest Interactive Subsidiary)  
 
-**Penetration Tester**  
-APU FSeC Team
+**Penetration Tester (Student Group Project)**  
+FSeC Team — Asia Pacific University  
+
+---
+
+## SKILLS
+
+**Languages:** Python, Bash, JavaScript, SQL  
+**Tools:** Burp Suite, Nmap, Nessus, Wireshark, Metasploit, Splunk, Wazuh  
+**Focus Areas:** Web Exploitation, Threat Detection, Malware Analysis, Vulnerability Assessment  
+**OS:** Kali Linux, Parrot OS, Windows  
 
 ---
 
 ## ACCOUNTS
 
-**GitHub**: [Ibrahim-sec](https://github.com/Ibrahim-sec )
-
-**LinkedIn**: [Ibrahim M. Gholamy](https://www.linkedin.com/in/ibrahim-gholamy )
-
-**HackerOne**: [@Ibrahim-sec](https://hackerone.com/ibrahim-sec )
+**GitHub:** [Ibrahim-sec](https://github.com/Ibrahim-sec)  
+**LinkedIn:** [Ibrahim M. Gholamy](https://www.linkedin.com/in/ibrahim-gholamy)  
+**HackerOne:** [@Ibrahim-sec](https://hackerone.com/ibrahim-sec)  
