@@ -1,5 +1,4 @@
 name: Deploy Gatsby to GitHub Pages
-
 on:
   push:
     branches: [ main ]
@@ -24,9 +23,11 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload site artifact (unique)
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+          name: site-dist
 
   deploy:
     environment:
@@ -37,3 +38,5 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site-dist
