@@ -81,32 +81,6 @@ export const Sidebar = ({
           ))}
         </nav>
       </section>
-
-      <section className="sidebar-section">
-        <h2>Stay Connected</h2>
-        <p className="sidebar-links">
-          <a
-            href="https://taniarascia.substack.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={newMoon} alt="Email Newsletter" height="16" width="16" />
-            Email Newsletter
-          </a>
-          <a
-            href="https://go.bsky.app/SmEWb8G"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={bluesky} alt="Bluesky" height="16" width="16" />
-            Bluesky Starter Pack
-          </a>
-          <a href="/rss.xml">
-            <img src={rss} alt="RSS" height="16" width="16" />
-            RSS Feed
-          </a>
-        </p>
-      </section>
     </aside>
   )
 }
