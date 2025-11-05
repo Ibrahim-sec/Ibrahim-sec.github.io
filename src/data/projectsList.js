@@ -24,14 +24,14 @@ export const projectsList = [
     name: 'Race Condition Lab',
     date: '2025',
     slug: 'CTF-RaceCondition',
-    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    tagline: 'Race condition vulnerability challenge designed for Capture The Flag (CTF) competitions for my university. The challenge is intended to help participants understand and exploit race conditions in a controlled environment.',
     highlight: true,
   },
   {
     name: 'JSNotify',
     date: '2025',
     slug: 'JSNotify',
-    tagline: 'Vulnerability report acknowledged by Cloudflare',
+    tagline: 'JSNotify is a Python script designed to monitor JavaScript files in a specified directory for changes. This tool can be used by developers and security professionals to keep track of modifications in JavaScript files, ensuring the integrity and security of web applications.',
     highlight: true,
   }
 ]
