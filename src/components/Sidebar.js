@@ -21,7 +21,6 @@ export const Sidebar = ({
 }) => {
   const links = [
     { url: '/blog', label: 'Blog', image: projects },
-    { url: '/notes', label: 'Notes', image: blog },
     { url: '/projects', label: 'Projects', image: github },
     { url: '/me', label: 'About Me', image: floppy },
   ]

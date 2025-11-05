@@ -17,7 +17,6 @@ import { ColorDropdown } from './ColorDropdown'
 
 const links = [
   { url: '/blog', label: 'Blog', image: projects },
-  { url: '/notes', label: 'Notes', image: blog },
   { url: '/projects', label: 'Projects', image: github },
   { url: '/me', label: 'About Me', image: floppy },
 ]
@@ -64,7 +63,7 @@ export const Navigation = ({
       </div>
       <div className="navbar-container">
         <section className="navbar-section navbar-section-search">
-          {!currentPath.includes('blog') && !currentPath.includes('notes') && (
+          {!currentPath.includes('blog') && (
             <Searchbar
               isLocal={false}
               query={query}

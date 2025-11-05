@@ -17,10 +17,8 @@ import newMoon from '../../content/images/new-moon.svg'
 import floppy from '../../content/images/floppylogo.png'
 
 export default function Index({ data }) {
-  const latestNotes = data.latestNotes.edges
   const latestArticles = data.latestArticles.edges
   const highlights = data.highlights.edges
-  const notes = useMemo(() => getSimplifiedPosts(latestNotes), [latestNotes])
 
   const articles = useMemo(
     () => getSimplifiedPosts(latestArticles),
@@ -81,13 +79,7 @@ export default function Index({ data }) {
           <Posts data={articles} newspaper />
         </section>
 
-        <section className="section-index">
-          <Heading
-            title="Notes"
-            description="CTF writeups, security research, and personal updates."
-          />
-          <Posts data={notes} newspaper />
-        </section>
+
 
         <section className="section-index">
           <Heading
@@ -166,31 +158,6 @@ Index.Layout = Layout
 
 export const pageQuery = graphql`
   query IndexQuery {
-    latestNotes: allMarkdownRemark(
-      limit: 5
-      sort: { frontmatter: { date: DESC } }
-      filter: {
-        frontmatter: {
-          template: { eq: "post" }
-          categories: { eq: "Personal" }
-        }
-      }
-    ) {
-      edges {
-        node {
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            tags
-            categories
-          }
-        }
-      }
-    }
     latestArticles: allMarkdownRemark(
       limit: 5
       sort: { frontmatter: { date: DESC } }
