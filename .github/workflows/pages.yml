@@ -8,8 +8,12 @@ permissions:
   pages: write
   id-token: write
 
+# Make artifact names unique per run
+env:
+  ARTIFACT_NAME: site-dist-${{ github.run_id }}
+
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -27,7 +31,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: site-dist
+          name: ${{ env.ARTIFACT_NAME }}
 
   deploy:
     environment:
@@ -39,4 +43,4 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: site-dist
+          artifact_name: ${{ env.ARTIFACT_NAME }}
