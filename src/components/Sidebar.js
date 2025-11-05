@@ -35,13 +35,13 @@ export const Sidebar = ({
               <img
                 src={floppyLogo}
                 className="navbar-logo"
-                alt="tania.dev"
+                alt="Ibrahim"
                 title="💾"
                 height="16"
                 width="16"
               />
             </span>
-            <span className="site-name">tania.dev</span>
+            <span className="site-name">Ibrahim</span>
           </Link>
           <div className="flex-align-center">
             <ColorDropdown
