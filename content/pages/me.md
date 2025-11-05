@@ -93,6 +93,6 @@ FSeC Team — Asia Pacific University
 
 ## ACCOUNTS
 
-**GitHub:** [Ibrahim-sec](https://github.com/Ibrahim-sec)  
-**LinkedIn:** [Ibrahim M. Gholamy](https://www.linkedin.com/in/ibrahim-gholamy)  
-**HackerOne:** [@Ibrahim-sec](https://hackerone.com/ibrahim-sec)  
+**GitHub:** [Ibrahim-sec](https://github.com/)  
+**LinkedIn:** [Ibrahim Mohammad](https://www.linkedin.com/in/)  
+**HackerOne:** [@Ibrahim-sec](https://hackerone.com/)  
