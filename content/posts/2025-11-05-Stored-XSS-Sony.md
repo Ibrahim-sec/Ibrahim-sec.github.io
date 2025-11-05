@@ -1,5 +1,5 @@
 ---
-date: 2025-11-05
+date: 2024-11-11
 title: 'From IDOR to Full Account Takeover'
 template: post
 slug: Chain-IDOR-Vulnerability-To-Account-Takeover

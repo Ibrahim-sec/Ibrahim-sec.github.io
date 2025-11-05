@@ -1,5 +1,5 @@
 ---
-date: 2025-11-05
+date: 2025-10-08
 title: 'Shoppix Fashion Importer CTF Walkthrough - LFI to Remote Code Execution'
 template: post
 slug: Shoppix-Fashion-Importer-CTF-Walkthrough
