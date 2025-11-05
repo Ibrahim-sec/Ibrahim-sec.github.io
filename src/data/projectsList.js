@@ -8,9 +8,9 @@ export const projectsList = [
     highlight: true,
   },
   {
-    name: 'NASA Security Report',
+    name: 'Cloudflare MCP Server',
     date: '2025',
-    slug: 'nasa-security',
+    slug: 'Cloudflare-MCP-Server-',
     tagline: 'Vulnerability report acknowledged by NASA',
     highlight: true,
   }
