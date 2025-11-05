@@ -4,13 +4,12 @@ title: 'System Override CTF 2025 - Leading a Cybersecurity Competition at APU'
 template: post
 slug: system-override-ctf-2025
 categories:
-  - Personal
+  - Technical
 tags:
-  - ctf
-  - cybersecurity
-  - barqsec
-  - competition
-  - apu
+  - bug-bounty
+  - security
+  - nasa
+  - vulnerability-disclosure
 ---
 
 On November 1st, 2025, we successfully hosted **System Override CTF 2025** at Asia Pacific University (APU), bringing together over 300 participants from 10+ universities across Malaysia. As one of the lead organizers and CTO of BarqSec, this event represents months of planning, coordination, and teamwork.
