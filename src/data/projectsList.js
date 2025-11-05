@@ -1,13 +1,5 @@
 export const projectsList = [
   {
-    name: 'CVE-2025-47545',
-    date: '2025',
-    slug: 'cve-2025-47545',
-    tagline: 'WordPress Poll Maker Race Condition Vulnerability',
-    url: 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47545',
-    highlight: true,
-  },
-  {
     name: 'Cloudflare MCP Server',
     date: '2025',
     slug: 'Cloudflare-MCP-Server',
@@ -15,30 +7,30 @@ export const projectsList = [
     highlight: true,
   },
   {
-    name: 'js-sentinel',
+    name: 'Js Sentinel',
     date: '2025',
-    slug: 'Cloudflare-MCP-Server',
+    slug: 'js-sentinel',
     tagline: 'Vulnerability report acknowledged by Cloudflare',
     highlight: true,
   },
   {
-    name: 'GhostServer-CTF',
+    name: 'Vhost Lab',
     date: '2025',
-    slug: 'Cloudflare-MCP-Server',
+    slug: 'GhostServer-CTF',
     tagline: 'Vulnerability report acknowledged by Cloudflare',
     highlight: true,
   },
   {
-    name: 'CTF-RaceCondition',
+    name: 'Race Condition Lab',
     date: '2025',
-    slug: 'Cloudflare-MCP-Server',
+    slug: 'CTF-RaceCondition',
     tagline: 'Vulnerability report acknowledged by Cloudflare',
     highlight: true,
   },
   {
     name: 'JSNotify',
     date: '2025',
-    slug: 'Cloudflare-MCP-Server',
+    slug: 'JSNotify',
     tagline: 'Vulnerability report acknowledged by Cloudflare',
     highlight: true,
   }
