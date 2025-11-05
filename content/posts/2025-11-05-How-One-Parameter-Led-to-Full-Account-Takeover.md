@@ -1,6 +1,6 @@
 ---
 date: 2025-11-05
-title: 'How One Parameter Led to Full Account Takeover'
+title: 'From IDOR to Full Account Takeover'
 template: post
 slug: Chain-IDOR-Vulnerability-To-Account-Takeover
 categories:
