@@ -13,35 +13,5 @@ export const projectsList = [
     slug: 'nasa-security',
     tagline: 'Vulnerability report acknowledged by NASA',
     highlight: true,
-  },
-  {
-    name: 'System Override CTF 2025',
-    date: '2025',
-    slug: 'system-override-ctf',
-    tagline: 'Led cybersecurity competition at APU with 300+ participants',
-    highlight: true,
-  },
-  {
-    name: 'Bug Bounty Research',
-    date: '2020-2025',
-    slug: 'bug-bounty',
-    tagline: '400+ vulnerabilities in Google, TikTok, Amazon, and more',
-    url: 'https://github.com/Ibrahim-sec',
-    highlight: true,
-  },
-  {
-    name: 'HackerOne Ambassador World Cup',
-    date: '2023-2024',
-    slug: 'hackerone-awc',
-    tagline: 'Represented Saudi Arabia in global bug bounty competition',
-    highlight: true,
-  },
-  {
-    name: 'BarqSec',
-    date: '2025',
-    slug: 'barqsec',
-    tagline: 'Chief Technology Officer - Cybersecurity startup',
-    url: 'https://github.com/Ibrahim-sec',
-    highlight: true,
-  },
+  }
 ]
