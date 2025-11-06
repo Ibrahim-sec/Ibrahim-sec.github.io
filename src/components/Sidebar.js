@@ -65,7 +65,7 @@ export const Sidebar = ({
         <h2>About Me</h2>
         <div className="sidebar-content">
           <p>
-            I'm <Link to="/me">Ibrahim</Link>, a cybersecurity student and bug hunter who’s reported 400+ vulnerabilities to Google, Amazon, and TikTok. This is my digital lab.
+            I'm <Link to="/me">Ibrahim</Link>, a cybersecurity student and bug hunter who’s reported 500+ vulnerabilities to Google, Amazon, and TikTok. A showcase of my cybersecurity journey.
           </p>
         </div>
       </section>
