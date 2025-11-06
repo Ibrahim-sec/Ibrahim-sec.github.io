@@ -91,10 +91,3 @@ FSeC Team — Asia Pacific University
 **Focus Areas:** Web Exploitation, Threat Detection, Malware Analysis, Vulnerability Assessment  
 **OS:** Kali Linux, Parrot OS, Windows  
 
----
-
-## ACCOUNTS
-
-**GitHub:** [Ibrahim-sec](https://github.com/)  
-**LinkedIn:** [Ibrahim Mohammad](https://www.linkedin.com/in/)  
-**HackerOne:** [@Ibrahim-sec](https://hackerone.com/)  
