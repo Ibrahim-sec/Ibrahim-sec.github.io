@@ -1,8 +1,8 @@
 ---
-date: 2025-01-05
+date: 2025-11-04
 title: 'Zero Click Account Takeover Through Broken Registration Logic'
 template: post
-slug: How-I-Took Over-Any-Account-Without-User-Interaction
+slug: Zero-Click-Account-Takeover-Through-Broken-Registration-Logic
 categories:
   - Technical
 tags:
