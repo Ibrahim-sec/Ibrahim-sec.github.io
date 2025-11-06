@@ -21,7 +21,7 @@ const links = [
   { url: '/me', label: 'About Me', image: floppy },
 ]
 
-const socialLinks = [{ url: 'https://bsky.app/profile/tania.dev' }]
+const socialLinks = [{ url: 'https://bsky.app/' }]
 
 export const Navigation = ({
   handleUpdateTheme,
@@ -51,13 +51,13 @@ export const Navigation = ({
               <img
                 src={floppyLogo}
                 className="navbar-logo"
-                alt="tania.dev"
+                alt="Ibrahim"
                 title="💾"
                 height="16"
                 width="16"
               />
             </span>
-            <span className="site-name">tania.dev</span>
+            <span className="site-name">Ibrahim</span>
           </Link>
         </div>
       </div>
