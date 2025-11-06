@@ -58,6 +58,9 @@ This is a critical information disclosure vulnerability. By chaining the unautho
 6.  In the new search window, click the **Search** button without entering any search terms.
 7.  **Observe** the full list of employee PII (First Name, Last Name, Email, Username) being returned.
 
+![PII Exposed](https://i.imgur.com/UysCilF.png)
+
+
 ## The Fix
 
 The fix for this requires several layers:
