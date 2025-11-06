@@ -1,8 +1,8 @@
 ---
 date: 2025-02-29
-title: 'How I Took Over Any Account by Adding a Dot to a Phone Number'
+title: 'Account Takeover with a Single Dot in a Phone Number'
 template: post
-slug: How-I-Took-Over-Any-Account-by-Adding-a-Dot-to-a-Phone-Number
+slug: Account-Takeover-with-a-Single-Dot-in-a-Phone-Number
 categories:
   - Technical
 tags:

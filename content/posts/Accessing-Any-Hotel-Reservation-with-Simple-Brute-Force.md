@@ -1,15 +1,15 @@
 ---
 date: 2022-02-12
-title: 'How I Could Access and Modify Any Hotel Reservation with a Simple Brute-Force Attack'
+title: 'Accessing Any Hotel Reservation with Simple Brute Force'
 template: post
-slug: How-I-Could -Access-and-Modify-Any-Hotel-Reservation-with-a-Simple-Brute-Force-Attack
+slug: Accessing-Any-Hotel-Reservation-with-Simple-Brute-Force
 categories:
   - Technical
 tags:
   - bug-bounty
 
 ---
-\
+
 What up, fellow hackers and bug bounty hunters! Today, I'm breaking down a critical vulnerability I found on a major hotel booking platform. This is a story of how a weak confirmation number system and a lack of rate limiting allowed me to access and modify any user's reservation, leading to a massive privacy breach.
 
 ## The Discovery: The Reservation Search
