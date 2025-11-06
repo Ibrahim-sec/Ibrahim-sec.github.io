@@ -1,5 +1,5 @@
 ---
-date: 2024-11-11
+date: 2024-05-29
 title: 'How I Got Infinite Money with a Single Minus Sign A Business Logic Nightmare'
 template: post
 slug: Infinite-Money-with-a-Single-Minus-Sign
