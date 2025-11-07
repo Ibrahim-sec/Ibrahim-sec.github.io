@@ -2,7 +2,7 @@
 date: 2025-10-13
 title: 'OTP Redaction Bypass in SMS Logs Leads to Mass Account Takeover Across E-Commerce Platform'
 template: post
-slug: Infinite-Money-with-a-Single-Minus-Sign
+slug: OTP-Bypass-in-SMS-Leads-To-Mass-Account-Takeover
 categories:
   - Technical
 tags:
