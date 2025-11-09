@@ -1,6 +1,6 @@
 ---
 date: 2024-06-09
-title: "How I Leaked User Emails and Names Through a Buggy Newsletter Unsubscribe Feature_"
+title: "Leaking User Emails and Names Through a Buggy Newsletter Unsubscribe Feature_"
 template: post
 slug: The-Newsletter-Confirmation-Link
 categories:

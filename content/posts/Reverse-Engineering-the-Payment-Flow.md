@@ -1,6 +1,6 @@
 ---
 date: 2024-10-18
-title: 'How I Got Free Account Credits by Reverse-Engineering the Payment Flow'
+title: 'Free Account Credits by Reverse-Engineering the Payment Flow'
 template: post
 slug: Reverse-Engineering-the-Payment-Flow
 categories:

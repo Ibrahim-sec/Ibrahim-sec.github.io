@@ -1,6 +1,6 @@
 ---
 date: 2024-03-23
-title: 'How I Turned a Simple IDOR Into Account Takeover'
+title: 'IDOR Into Account Takeover'
 template: post
 slug: IDOR-Into-Account-Takeover
 categories:
